@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "name": "真三國無雙online Chrome調理農務插件",
+  "description": "",
+  "author": "https://github.com/tom10271/musou-online-farmer-chrome-extension",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://msp.musou-online.jp/*"
+      ],
+      "js": ["./jquery-3.4.1.min.js","./scripts.js"]
+    }
+  ]
+}
