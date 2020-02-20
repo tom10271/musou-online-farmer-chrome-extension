@@ -4,7 +4,7 @@
 
 ---
 
- - 先下載所有代碼並存於同一資料夾內
+ - 下載所有代碼並存於同一資料夾內 [按此] (https://github.com/tom10271/musou-online-farmer-chrome-extension/archive/master.zip)
  - 在Chrome中打開 `chrome://extensions/`
  - 在右上角啟動`開發人員模式`
  - 點`載入未封裝項目`後進入放有先前下載的代碼資料夾中，點`選擇資料夾`
