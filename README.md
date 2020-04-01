@@ -17,7 +17,7 @@
  - 你應該會看到`真三國無雙online Chrome調理農務插件`
  - 到 [http://msp.musou-online.jp/m](http://msp.musou-online.jp/m) 手動登入
  - 登入並選擇角色後到 [http://msp.musou-online.jp/m/garden_top](http://msp.musou-online.jp/m/garden_top)
- - 插件再會自動調理農務
+ - 插件將會自動調理農務
  
 ---
  
