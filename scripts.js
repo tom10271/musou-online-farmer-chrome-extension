@@ -41,6 +41,7 @@ chrome.storage.local.get('cookItem', function (result) {
 
                     if (cookItem === cookItems.soup) {
                         debugger;$('#popup input.btn').click();
+                        debugger;window.location.href = 'http://msp.musou-online.jp/m/garden_teatable_food_effect';
                     } else {
                         debugger;window.location.href = 'http://msp.musou-online.jp/m/garden_top';
                     }
@@ -89,7 +90,12 @@ chrome.storage.local.get('cookItem', function (result) {
         }
         if (isIn(/garden_teatable_food_effect/)) {
             // Throw one item in food list
-            debugger;$('#popup input.btn').click();
+            $('#radioitem0').click();
+            
+            setTimeout(() => {
+                debugger;$('#popup input.btn').click();
+            }, 1000);
+
         }
     }
     if (isIn(/garden_top/)) {
