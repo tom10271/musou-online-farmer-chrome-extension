@@ -76,12 +76,11 @@ chrome.storage.local.get('cookItem', function (result) {
             if ($('#content div:contains(料理を破棄しました)').length) {
                 if (cookItem === cookItems.soup) {
                     chrome.storage.local.set({
-                            'cookItem': cookItems.greenTea
-                        },
-                        function (data) {
-                            debugger;window.location.href = 'http://msp.musou-online.jp/m/garden_top';
-                        }
-                    );
+                        'cookItem': cookItems.greenTea
+                    },
+                    function (data) {
+                        debugger;window.location.href = 'http://msp.musou-online.jp/m/garden_top';
+                    });
                 }
                 debugger;window.location.href = 'http://msp.musou-online.jp/m/garden_top';
             } else {
@@ -89,6 +88,8 @@ chrome.storage.local.get('cookItem', function (result) {
             }
         }
         if (isIn(/garden_teatable_food_effect/)) {
+            // Throw one item in food list
+            debugger;$('#popup input.btn').click();
         }
     }
     if (isIn(/garden_top/)) {
